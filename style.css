@@ -7,7 +7,7 @@
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
     background-position: center;
-    background-size: cover;
+   background-size: cover;
     height: 100vh;
 }
 
@@ -29,14 +29,13 @@
     font-family: Arial;
     padding-left: 20px;
     float: left;
-    padding-top: 10px;
+    padding-top: 12px;
     margin-top: 5px
 }
 
 .menu{
     width: 400px;
     float: left;
-    height: 70px;
 }
 
 ul{
@@ -54,6 +53,9 @@ ul li{
 }
 
 ul li a{
+    border: 1px solid  rgb(14, 14, 43);
+    padding: 3px;
+    
     text-decoration: none;
     color: #fff;
     font-family: Arial;
@@ -62,7 +64,13 @@ ul li a{
 }
 
 ul li a:hover{
-    color: #ff7200;
+    border: 1px solid white;
+    background-color: #ff7200;
+    border-radius: 10px;
+    transition: .01s;
+    padding: 3px;
+    color: black;
+    font-weight: bold;
 }
 
 .search{
@@ -72,19 +80,17 @@ ul li a:hover{
 }
 
 .srch{
-    font-family: 'Times New Roman';
     width: 200px;
     height: 40px;
     background: transparent;
     border: 1px solid #ff7200;
-    margin-top: 13px;
+    border-radius: 20px;
+    margin-top: 15px;
     color: #fff;
-    border-right: none;
     font-size: 16px;
     float: left;
     padding: 10px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
+    
 }
 
 .btn{
@@ -92,26 +98,22 @@ ul li a:hover{
     height: 40px;
     background: #ff7200;
     border: 2px solid #ff7200;
-    margin-top: 13px;
+    border-radius: 20px;
+    margin-top: 15px;
     color: #fff;
     font-size: 15px;
-    border-bottom-right-radius: 5px;
-    border-bottom-right-radius: 5px;
     transition: 0.2s ease;
     cursor: pointer;
+    font-size:18px;
+    margin-left: 5px;
 }
 .btn:hover{
     color: #000;
+    background-color: white;
+    transition: .2s;
+    font-size: 20px;
+    font-weight: bold;
 }
-
-.btn:focus{
-    outline: none;
-}
-
-.srch:focus{
-    outline: none;
-}
-
 .content{
     width: 1200px;
     height: auto;
@@ -140,11 +142,11 @@ ul li a:hover{
     width: 160px;
     height: 40px;
     background: #ff7200;
-    border: none;
+    border: 1px solid #ff7200;
+    border-radius: 50px;
     margin-bottom: 10px;
     margin-left: 20px;
-    font-size: 18px;
-    border-radius: 10px;
+    font-size: 20px;
     cursor: pointer;
     transition: .4s ease;
     
@@ -152,12 +154,15 @@ ul li a:hover{
 
 .content .cn a{
     text-decoration: none;
-    color: #000;
-    transition: .3s ease;
+    color: black;
+    transition: .1s ease;
 }
 
 .cn:hover{
     background-color: #fff;
+    font-weight: bold;
+    font-size: 21px;
+    transition: .1s;
 }
 
 .content span{
@@ -183,8 +188,9 @@ ul li a:hover{
     text-align: center;
     color: #ff7200;
     font-size: 22px;
+    font-weight: bold;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 2px;
     padding: 8px;
 }
@@ -204,35 +210,33 @@ ul li a:hover{
     font-family: sans-serif;
 }
 
-.form input:focus{
-    outline: none;
-}
-
 ::placeholder{
     color: #fff;
     font-family: Arial;
+    font-weight: bold;
 }
 
 .btnn{
     width: 240px;
     height: 40px;
     background: #ff7200;
-    border: none;
+    border: 1px solid #ff7200;
+    border-radius:  20px;
     margin-top: 30px;
     font-size: 18px;
-    border-radius: 10px;
     cursor: pointer;
     color: #fff;
     transition: 0.4s ease;
 }
 .btnn:hover{
     background: #fff;
-    color: #ff7200;
+    border: 1px solid #ff7200;
 }
 .btnn a{
     text-decoration: none;
     color: #000;
     font-weight: bold;
+    font-size: 22px;
 }
 .form .link{
     font-family: Arial, Helvetica, sans-serif;
